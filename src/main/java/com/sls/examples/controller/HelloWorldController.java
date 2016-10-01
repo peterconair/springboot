@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author pongsakmac
  */
     @Controller
-@RequestMapping("/hello-world")
+@RequestMapping("/hello")
 public class HelloWorldController {
 
     private static final String template = "Hello, %s!";
