@@ -1,0 +1,6 @@
+com/sls/examples/controller/MainController.class
+com/sls/examples/controller/UserController.class
+com/sls/examples/entity/Greeting.class
+com/sls/examples/WebAppInitializer.class
+com/sls/examples/controller/HelloWorldController.class
+com/sls/examples/entity/User.class
