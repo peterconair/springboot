@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{729A970A-9383-4D93-BA8E-1BBB0F0A2A33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A05BCD7-86F0-43DF-BFCB-C5D801A4C39B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspOnCore", "src\AspOnCore\AspOnCore.xproj", "{05C235A3-80F2-496D-BF9B-87F137D4351F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C235A3-80F2-496D-BF9B-87F137D4351F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C235A3-80F2-496D-BF9B-87F137D4351F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C235A3-80F2-496D-BF9B-87F137D4351F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C235A3-80F2-496D-BF9B-87F137D4351F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05C235A3-80F2-496D-BF9B-87F137D4351F} = {729A970A-9383-4D93-BA8E-1BBB0F0A2A33}
+	EndGlobalSection
+EndGlobal
