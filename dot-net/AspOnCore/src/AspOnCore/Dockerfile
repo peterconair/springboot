@@ -1,4 +1,4 @@
-﻿FROM microsoft/dotnet:latest
+﻿FROM microsoft/dotnet:nanoserver
 
 COPY . /app
 WORKDIR /app
